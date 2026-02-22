@@ -124,9 +124,10 @@ st.markdown(
             <span style="color: #28A745;">🟢 Growth</span>
         </p>
         <p style="color: gray; font-size: 14px; margin-top: 10px;">
-            Proudly serving the students of Pusat Tingkatan Enam Sengkurong
+            Creator: Miss Hajah Nurul Haziqah HN (PTES CS Tutor)
         </p>
     </div>
     """,
     unsafe_allow_html=True
 )
+
