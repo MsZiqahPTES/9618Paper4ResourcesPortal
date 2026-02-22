@@ -62,12 +62,12 @@ query = st.text_input("Enter a topic (e.g., Recursion, Linked List, Stack, Binar
 
 if query:
     with st.spinner(f"Reading papers to find '{query}'..."):
-        results = search_inside_pdfs(query, FOLDERS['Question_Paper(9618_s/wYY_4v)'])
+        results = search_inside_pdfs(query, FOLDERS['Question_Paper'])
 
     if results:
         st.success(f"Topic found in {len(results)} Question Papers:")
         for qp_file in results:
-            with open(os.path.join(FOLDERS['Question_Paper(9618_s/wYY_4v)'], qp_file), "rb") as f:
+            with open(os.path.join(FOLDERS['Question_Paper'], qp_file), "rb") as f:
                 st.download_button(f"⬇️ Get Paper: {qp_file}", f, file_name=qp_file, key=f"search_{qp_file}")
     else:
         st.warning("Keyword not found in any PDF content.")
@@ -138,3 +138,4 @@ with col_mid:
 
     st.caption("Proudly serving the students of Pusat Tingkatan Enam")
 ######################################################################
+
