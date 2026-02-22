@@ -107,41 +107,26 @@ for label, folder_path in FOLDERS.items():
         else:
             st.warning(f"No {label} files found.")
 ######################################################################
-# --- FOOTER & VISITOR COUNTER ---
+# --- FOOTER ---
 st.markdown("---")
-col_left, col_mid, col_right = st.columns([1,2,1])
 
-with col_mid:
-    st.write("✨ **PTES 9618 Resource Portal Tracking** ✨")
-    
-    # This URL is specially formatted for your app
-    #st.markdown(
-      ###############################################################
-     #   "![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?"
-     #   "url=https%3A%2F%2F9618-paper4-resources-bank.streamlit.app&"
-      #  "count_bg=%234CAF50&"     # PTES Green
-     #   "title_bg=%23003366&"     # PTES Blue
-     #   "icon=&icon_color=%23E7E7E7&"
-     #   "title=Total+Portal+Hits&"
-      #  "edge_flat=false)"
-    # )
-    
-    # Your PTES Values Row
-    st.markdown(
-        "<div style='text-align: center; font-weight: bold; font-size: 16px;'>"
-        "<span style='color: red;'>🔴 Academic Excellence</span> | "
-        "<span style='color: #FFD700;'>🟡 Digital Integrity</span><br>"
-        "<span style='color: #0047AB;'>🔵 Future Readiness</span> | "
-        "<span style='color: #2E8B57;'>🟢 Holistic Growth</span>"
-        "</div>", 
-        unsafe_allow_html=True
-    )
-    
-    st.caption("Proudly serving the students of Pusat Tingkatan Enam")
-######################################################################
-
-
-
-
-
-
+# Using a single container with centered alignment
+st.markdown(
+    """
+    <div style="text-align: center; width: 100%;">
+        <p style="font-size: 20px; font-weight: bold; margin-bottom: 5px;">
+            ✨ PTES 9618 Resource Portal ✨
+        </p>
+        <p style="font-size: 16px; font-weight: bold; letter-spacing: 0.5px;">
+            <span style="color: #FF0000;">🔴 Excellence</span> | 
+            <span style="color: #FFD700;">🟡 Integrity</span> | 
+            <span style="color: #0070FF;">🔵 Wisdom</span> | 
+            <span style="color: #28A745;">🟢 Growth</span>
+        </p>
+        <p style="color: gray; font-size: 14px; margin-top: 10px;">
+            Proudly serving the students of Pusat Tingkatan Enam Sengkurong
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
