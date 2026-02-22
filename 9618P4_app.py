@@ -136,8 +136,9 @@ with col_mid:
         unsafe_allow_html=True
     )
     
-    st.caption("Proudly serving the students of Pusat Tingkatan Enam Sengkurong")
+    st.caption("Proudly serving the students of Pusat Tingkatan Enam")
 ######################################################################
+
 
 
 
