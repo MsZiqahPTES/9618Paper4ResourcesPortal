@@ -115,16 +115,16 @@ with col_mid:
     st.write("✨ **PTES 9618 Resource Portal Tracking** ✨")
     
     # This URL is specially formatted for your app
-    st.markdown(
+    #st.markdown(
       ###############################################################
-        "![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?"
-        "url=https%3A%2F%2F9618-paper4-resources-bank.streamlit.app&"
-        "count_bg=%234CAF50&"     # PTES Green
-        "title_bg=%23003366&"     # PTES Blue
-        "icon=&icon_color=%23E7E7E7&"
-        "title=Total+Portal+Hits&"
-        "edge_flat=false)"
-    )
+     #   "![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?"
+     #   "url=https%3A%2F%2F9618-paper4-resources-bank.streamlit.app&"
+      #  "count_bg=%234CAF50&"     # PTES Green
+     #   "title_bg=%23003366&"     # PTES Blue
+     #   "icon=&icon_color=%23E7E7E7&"
+     #   "title=Total+Portal+Hits&"
+      #  "edge_flat=false)"
+    # )
     
     # Your PTES Values Row
     st.markdown(
@@ -139,6 +139,7 @@ with col_mid:
     
     st.caption("Proudly serving the students of Pusat Tingkatan Enam")
 ######################################################################
+
 
 
 
