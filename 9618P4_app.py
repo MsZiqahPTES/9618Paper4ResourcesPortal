@@ -109,34 +109,35 @@ for label, folder_path in FOLDERS.items():
 ######################################################################
 # --- FOOTER & VISITOR COUNTER ---
 st.markdown("---")
-col_left, col_mid, col_right = st.columns([1, 2, 1])
+col_left, col_mid, col_right = st.columns([1,2,1])
 
 with col_mid:
     st.write("✨ **PTES 9618 Resource Portal Tracking** ✨")
-
-    # Custom HITS Badge with PTES Blue and PTES Green number
+    
+    # This URL is specially formatted for your app
     st.markdown(
         "![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?"
-        "url=https%3A%2F%2F9618-paper4-resources-bank.streamlit.app&"
-        "count_bg=%234CAF50&"  # This is your PTES Green!
-        "title_bg=%23003366&"  # This is your PTES Blue!
+        "url=https%3A%2F%2F9618paper4resourcesportal.streamlit.app&"
+        "count_bg=%234CAF50&"     # PTES Green
+        "title_bg=%23003366&"     # PTES Blue
         "icon=&icon_color=%23E7E7E7&"
         "title=Total+Portal+Hits&"
         "edge_flat=false)"
     )
-
-    # Adding Green to the colored text row
+    
+    # Your PTES Values Row
     st.markdown(
-        "<div style='text-align: center; font-weight: bold; font-size: 18px;'>"
+        "<div style='text-align: center; font-weight: bold; font-size: 16px;'>"
         "<span style='color: red;'>🔴 Academic Excellence</span> | "
-        "<span style='color: #FFD700;'>🟡 Digital Integrity</span> | "
+        "<span style='color: #FFD700;'>🟡 Digital Integrity</span><br>"
         "<span style='color: #0047AB;'>🔵 Future Readiness</span> | "
         "<span style='color: #2E8B57;'>🟢 Holistic Growth</span>"
-        "</div>",
+        "</div>", 
         unsafe_allow_html=True
     )
-
-    st.caption("Proudly serving the students of Pusat Tingkatan Enam")
+    
+    st.caption("Proudly serving the students of Pusat Tingkatan Enam Sengkurong")
 ######################################################################
+
 
 
