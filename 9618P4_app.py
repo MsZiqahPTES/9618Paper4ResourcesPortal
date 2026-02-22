@@ -78,7 +78,7 @@ st.divider()
 st.subheader("📅 Browse by Session")
 col1, col2, col3 = st.columns(3)
 with col1:
-    year = st.selectbox("Examination Year", [2021, 2022, 2023, 2024, 2025])
+    year = st.selectbox("Examination Year", [2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030])
 with col2:
     series = st.selectbox("Series/Session", ["June (s)", "November (w)"])
     s_code = series.split("(")[1][0]
@@ -138,4 +138,5 @@ with col_mid:
 
     st.caption("Proudly serving the students of Pusat Tingkatan Enam")
 ######################################################################
+
 
