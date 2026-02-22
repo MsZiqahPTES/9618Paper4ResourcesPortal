@@ -116,8 +116,9 @@ with col_mid:
     
     # This URL is specially formatted for your app
     st.markdown(
+      ###############################################################
         "![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?"
-        "url=https%3A%2F%2F9618paper4resourcesportal.streamlit.app&"
+        "url=https%3A%2F%2F9618-paper4-resources-bank.streamlit.app&"
         "count_bg=%234CAF50&"     # PTES Green
         "title_bg=%23003366&"     # PTES Blue
         "icon=&icon_color=%23E7E7E7&"
@@ -138,6 +139,7 @@ with col_mid:
     
     st.caption("Proudly serving the students of Pusat Tingkatan Enam")
 ######################################################################
+
 
 
 
